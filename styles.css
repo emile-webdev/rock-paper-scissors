@@ -1,6 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 body {
     background-color: lightblue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .header, .btn-container {
     display: flex;
@@ -16,6 +21,7 @@ body {
     font-size: 5rem;
     margin: 10px;
     transition: 100ms;
+    transform: rotate(270deg);
 }
 .btn:hover {
     transform: scale(1.1);
